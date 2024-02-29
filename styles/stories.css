@@ -1,0 +1,29 @@
+.stories{
+    display: flex;
+    width: 100%;
+}
+
+.stories div{
+    flex: 1;
+    div{
+        display: inline-block;
+        width: 65%;
+        vertical-align: top;
+    }
+    img{
+        width:25%;
+        margin-right: 5%;
+    }
+    line-height: 30px;
+}
+
+.num{
+    color: hsl(233, 8%, 79%);
+    font-size: 24px;
+}
+
+.minhead{
+    color: black;
+    font-weight: 900;
+    font-size: 17px;
+}

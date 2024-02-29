@@ -1,0 +1,19 @@
+.nav-bar{
+    background-image: url(/assets/images/logo.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: contain;
+    justify-content: end;
+    margin-bottom: 5%;
+    background-color: white;
+    width: 100%;
+    position: relative;
+}
+
+.nav-bar div{
+    padding: 10px 0px 10px 25px;
+}
+
+.nav-bar div:hover{
+    color: hsl(5, 85%, 63%);
+}

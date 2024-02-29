@@ -1,0 +1,51 @@
+@font-face {
+    font-family: varfont;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+body{
+    margin: 0%;
+    font-family: varfont;
+    font-size: 15px;
+}
+
+.main{
+    margin: 1% 20%;
+}
+
+.sidebar{
+    display: none;
+}
+
+@media screen and (max-width:800px){
+    .main{
+        margin: 3%;
+    }
+    .nav-bar{
+        position: fixed;
+        width: 94;
+    }
+    .highlights{
+        flex-direction: column;
+        .div1{
+            width:100%;
+        }
+        .new{
+            width: 100%;
+        }
+    }
+    .stories{
+        flex-direction: column;
+    }
+    .content{
+        flex-direction: column;
+        margin-bottom: 14%;
+    }
+    .sidebar{
+        display: block;
+    }
+    .des-icons{
+        display: none;
+    }
+}
+
